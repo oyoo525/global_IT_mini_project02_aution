@@ -19,7 +19,7 @@ import com.project.auction.service.AuctionService;
 @Controller
 public class AdminController {
 
-	@Autowired
+	@Autowired 
 	private AuctionService auctionService;
 	
 	@RequestMapping(value="adminMemberRegister")
